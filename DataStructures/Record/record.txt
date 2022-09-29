@@ -1,0 +1,6 @@
+This is a simple demonstration of how Record works
+
+It is one of the Basic Data Structures.
+
+We know that Record stores subitems called fields. 
+Each subitems (fields) have an associated name.
