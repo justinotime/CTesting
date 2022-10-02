@@ -21,14 +21,17 @@ int userInputValue()
 }
 
 int main() {
-    int array [8] = {2,5,6,14,16,24,32,63}; 
+    int array [8] = {2,5,6,14,16,24,32,63};
+    int *pointArray = array; 
     int value;
     cout << ("Number Array: ");
+    
     // Checking if Array works
     for (int i = 0; i < 8; i++) {
-        cout << array[i] << " ";
+        cout << *(pointArray + i) << " ";
     }
     cout << endl;
+    
     // Entering values
     value = userInputValue();
     // cout << value; (Just to check) 
