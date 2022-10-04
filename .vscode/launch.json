@@ -6,19 +6,12 @@
       "type": "cppdbg",
       "request": "launch",
       "args": [],
-      "stopAtEntry": false,
-      "externalConsole": true,
-      "cwd": "c:/Users/jjnat/FUN/CTesting",
-      "program": "c:/Users/jjnat/FUN/CTesting/build/Debug/outDebug",
+      "stopAtEntry": true,
+      "externalConsole": false,
+      "cwd": "/Users/juice/FUN/CTesting",
+      "program": "/Users/juice/FUN/CTesting/build/Debug/outDebug",
       "MIMode": "gdb",
-      "miDebuggerPath": "gdb",
-      "setupCommands": [
-        {
-          "description": "Enable pretty-printing for gdb",
-          "text": "-enable-pretty-printing",
-          "ignoreFailures": true
-        }
-      ]
+      "miDebuggerPath": "gdb"
     }
   ]
 }
