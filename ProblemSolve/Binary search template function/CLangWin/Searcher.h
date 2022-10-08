@@ -16,7 +16,6 @@ public:
 
       while (high >= low) {
          int mid = (high + low) / 2;
-
          if (array[mid] < key) {
             low = mid + 1;
          }
