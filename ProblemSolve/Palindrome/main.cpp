@@ -3,26 +3,32 @@
 
 using namespace std;
 
-string user;
-void getUser()
+class RomanNumeral
 {
-    cout << "Input Roman Numerals: ";
-    cin >> user;
+    private: 
+        string userNumeral;
+
+    public:
+        RomanNumeral();    
+        RomanNumeral(const string userNumeral);
+
+    ~RomanNumeral();
+
+    void setUserNumeral(string);
+
+    string getUserNumeral() const;
 }
 
-void returnUser()
+RomanNumeral::RomanNumeral()
 {
-    cout << user << endl;
+    userNumeral = "none";
 }
 
+RomanNumeral::RomanNumeral()
 
-int main ()
+int main()
 {
-    
-    getUser();
-    returnUser();
-
-
+    RomanNumeral *userNumeral = new RomanNumeral;
 
     return 0;
 }
