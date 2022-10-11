@@ -17,7 +17,9 @@ class RomanNumeral
     void setUserNumeral(string);
 
     string getUserNumeral() const;
-}
+    void input(RomanNumeral *);
+
+};
 
 RomanNumeral::RomanNumeral()
 {
@@ -47,12 +49,18 @@ void RomanNumeral::input(RomanNumeral *ptr)
 {
     string user;
 
-    cout << "Input"
+    cout << "Input ";
+    getline (cin,user);
+    setUserNumeral(user);
+    return;
+
 }
 
 int main()
 {
     RomanNumeral *ptr = new RomanNumeral;
+
+    ptr->input(ptr);
 
     return 0;
 }
