@@ -11,7 +11,7 @@ template <typename T>
 class Comparer {
 public:
    virtual int Compare(const T& a, const T& b) = 0;
-      
+   
 };
 
 #endif
